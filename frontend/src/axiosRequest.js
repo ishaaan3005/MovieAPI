@@ -8,5 +8,5 @@ export const publicRequest = axios.create({
 
 // Configure to use localhost for local development
 export const userPublicRequest = axios.create({
-    baseURL: 'http://localhost:5173/', 
+    baseURL: 'https://movieapiproj.onrender.com/', 
 });
